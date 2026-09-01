@@ -1,0 +1,28 @@
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=crlf
+LICENSE text eol=lf
+
+*.bin binary
+*.ckpt binary
+*.h5 binary
+*.jpg binary
+*.jpeg binary
+*.keras binary
+*.npy binary
+*.npz binary
+*.onnx binary
+*.pb binary
+*.png binary
+*.pth binary
+*.pt binary
+*.tflite binary
+*.weights binary

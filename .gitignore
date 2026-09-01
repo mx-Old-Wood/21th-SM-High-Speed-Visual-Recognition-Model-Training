@@ -1,0 +1,64 @@
+# Local repository history retained during consolidation
+**/.git-local-backup/
+/pytorch-ncnn/CLAUDE.md
+
+# Python environments and caches
+**/.venv/
+**/venv/
+**/env/
+**/__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training datasets (intentionally not published)
+**/dataset/
+**/datasets/
+
+# Checkpoints, exported models, and generated evaluation output
+**/artifacts/
+**/checkpoints/
+**/model/
+**/models/
+**/diagnostics/
+**/cache/
+**/runs/
+**/logs/
+*.ckpt
+*.h5
+*.keras
+*.ncnn.bin
+*.ncnn.param
+*.onnx
+*.pb
+*.pth
+*.pt
+*.tflite
+*.weights
+*.npy
+*.npz
+
+# Locally downloaded conversion tools
+/pytorch-ncnn/pnnx-*-windows/
+/pytorch-ncnn/tools/
+/pytorch-ncnn/pnnx.exe
+/pytorch-ncnn/onnx2ncnn.exe
+/pytorch-ncnn/board_pack/test_images/
+/pytorch-ncnn/board_pack/deploy_cls/test_images/
+
+# Archives and local diagnostics
+*.7z
+*.rar
+*.zip
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.code-workspace
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+desktop.ini
