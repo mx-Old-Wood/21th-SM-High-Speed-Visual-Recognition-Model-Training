@@ -42,4 +42,9 @@ PyTorch、torchvision、ONNX、ONNX Runtime 及相关 Python 软件包仅作为�
 
 ## 相关应用仓库
 
-训练生成的模型用于配套项目 [mx-Old-Wood/21th-SM-High-Speed-Visual-Recognition](https://github.com/mx-Old-Wood/21th-SM-High-Speed-Visual-Recognition)。该项目是独立作品，具有自己的发布范围与许可证边界。
+训练生成的模型用于配套主仓库，该仓库提供以下发布地址：
+
+- GitHub：[mx-Old-Wood/21th-SM-High-Speed-Visual-Recognition](https://github.com/mx-Old-Wood/21th-SM-High-Speed-Visual-Recognition.git)
+- Gitee：[amireux_fish/Loognson](https://gitee.com/amireux_fish/Loognson)
+
+主仓库是独立作品，具有自己的发布范围与许可证边界。

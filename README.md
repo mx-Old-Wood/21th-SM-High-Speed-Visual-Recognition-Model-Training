@@ -1,6 +1,6 @@
 # 21th SM High-Speed Visual Recognition Model Training
 
-本仓库是 [21th-SM-High-Speed-Visual-Recognition](https://github.com/mx-Old-Wood/21th-SM-High-Speed-Visual-Recognition) 的模型训练附属仓库，用于整理该项目在不同阶段使用的图像分类训练与模型转换代码。实际部署、摄像头取图和赛题业务逻辑位于主仓库。
+本仓库是 21th SM High-Speed Visual Recognition 主仓库的模型训练附属仓库，用于整理该项目在不同阶段使用的图像分类训练与模型转换代码。主仓库发布于 [GitHub](https://github.com/mx-Old-Wood/21th-SM-High-Speed-Visual-Recognition.git) 和 [Gitee](https://gitee.com/amireux_fish/Loognson)；实际部署、摄像头取图和赛题业务逻辑位于主仓库。
 
 项目包含两套相互独立的历史训练流程：前期使用 TensorFlow/Keras 并导出 TFLite，后期改用 PyTorch 训练，经 ONNX 转换为 NCNN 模型。因此原来的 `NCNN` 目录已更名为 `pytorch-ncnn`，以准确表达“训练框架 + 部署格式”。
 
@@ -63,6 +63,11 @@ python train_tiny_classifier.py --data-root dataset
 一键训练、转换和抽样评估方式见 [pytorch-ncnn/README.md](pytorch-ncnn/README.md)。
 
 ## 与主仓库的关系
+
+主仓库地址：
+
+- GitHub：[mx-Old-Wood/21th-SM-High-Speed-Visual-Recognition](https://github.com/mx-Old-Wood/21th-SM-High-Speed-Visual-Recognition.git)
+- Gitee：[amireux_fish/Loognson](https://gitee.com/amireux_fish/Loognson)
 
 本仓库负责离线训练和模型格式转换，主仓库负责设备端推理及完整视觉系统。两者不通过 Git submodule 绑定，模型文件也不会在两个仓库间自动同步；部署前需在本地确认输入尺寸、类别顺序、预处理方式和主仓库推理代码完全一致。
 
